@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.dashboard-title {
+    text-align: center;
+    color: #333;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.property-form {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.property-form input, 
+.property-form select, 
+.property-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+.property-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.property-list {
+    display: grid;
+    gap: 15px;
+}
+
+.property-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.available {
+    color: green;
+}
+
+.status.sold, .status.rented {
+    color: red;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
